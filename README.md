@@ -11,7 +11,6 @@ Melodix es una aplicación móvil nativa para Android que permite explorar, repr
 - ❤️ **Gestión de favoritos** (canciones y artistas).
 - 📝 **Listas de reproducción personalizadas** (crear, añadir, eliminar canciones).
 - 🤖 **Sistema de recomendaciones personalizadas** basado en favoritos.
-- 🔐 **Sin necesidad de autenticación de usuario**.
 - 📱 **Interfaz moderna y responsiva** desarrollada con Jetpack Compose.
 
 ---
@@ -65,7 +64,7 @@ Melodix es una aplicación móvil nativa para Android que permite explorar, repr
 - JDK 17
 - Dispositivo o emulador con Android 9.0 (API 28) o superior
 - API Key de YouTube (añadir manualmente en código)
-- Token de Spotify vía `client_credentials` (ya integrado automáticamente)
+- Token de Spotify vía `client_credentials` (Este es generado automáticamente, se necesitan el clientId y secretClient dentro de la UI)
 - Backend local: Spring Boot + MySQL
 
 ### 📥 Clonar repositorio
